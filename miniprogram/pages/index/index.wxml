@@ -1,0 +1,7 @@
+<list phone="17839923587" bind:myevent="onMyEvent"></list>
+<!-- 使用navigator跳转到插件中的页面 -->
+<navigator url="plugin-private://wxc0c133f8e008f8af/pages/hello-page/hello-page">
+  Go to pages/hello-page!
+</navigator>
+<!-- 使用事件跳转到插件中的页面 -->
+<view catchtap='goPlugin'>去插件的页面</view>

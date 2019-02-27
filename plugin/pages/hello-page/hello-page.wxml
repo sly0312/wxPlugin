@@ -1,0 +1,3 @@
+<!--pages/hello-page/hello-page.wxml-->
+<text>pages/hello-page/hello-page.wxml</text>
+<view catchtap='goIndex'>使用navigator返回页面首页 这时候该页面unload 小程序页面是只调用onshow</view>

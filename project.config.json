@@ -7,5 +7,39 @@
 	},
 	"appid": "wxc0c133f8e008f8af",
 	"projectname": "wxPlugin",
-	"condition": {}
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": 1,
+			"list": [
+				{
+					"id": 0,
+					"name": "vant-weapp",
+					"pathName": "pages/dashboard/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "首页",
+					"pathName": "pages/index/index",
+					"scene": null
+				}
+			]
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": []
+		}
+	}
 }

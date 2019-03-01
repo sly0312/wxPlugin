@@ -1,6 +1,9 @@
 var plugin = requirePlugin("myPlugin")
 
 Page({
+  data:{
+     showBool:false
+  },
   onLoad: function() {
     plugin.getData()
   },
